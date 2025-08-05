@@ -1,7 +1,7 @@
 import React , {createContext} from "react";
 import Navbar from "./Components/Navbar"
 import { db } from "./config/firebase"; 
-import '../app.css'
+import '../App.css'
 import { FaPlusCircle } from "react-icons/fa";
 import {useEffect , useState} from "react";
 import { collection, onSnapshot } from "firebase/firestore";
