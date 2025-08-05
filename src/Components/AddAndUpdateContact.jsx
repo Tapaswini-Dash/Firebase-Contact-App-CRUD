@@ -6,7 +6,7 @@ import { addDoc, collection } from 'firebase/firestore';
  import { toast } from 'react-toastify';
  import "react-toastify/dist/ReactToastify.css";
  import { doc, updateDoc } from 'firebase/firestore';
-import * as Yup from "Yup";
+import * as Yup from "yup";
 
 const contactsSchemaValidation = Yup.object().shape({
     name : Yup.string().required("Name is required"),
